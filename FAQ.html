@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Charset and page title -->
+        <meta charset = "utf-8">
+        <title>Alyssa's Soap - FAQ</title>
+        <!-- Stylesheets, javascript files -->
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script src="load_faq.js"></script>
+        <link rel = "stylesheet" href = "all_style.css">
+        <link rel="stylesheet" href="jquery-ui-1.12.1.custom/jquery-ui.min.css">
+	    <script src="jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+        <script src="faq_accordion.js"></script>
+        <script src="alljs.js"></script>
+    </head>
+    <body>
+        <header>
+            <!--Page Header with Title-->
+            <section id = "page_header">
+                <h1 id = "title">Frequently Asked Questions</h1>
+            </section>
+            <!--Navigation Bar-->
+            <nav>
+                <section id="nav_bar">
+                    <!--Nav Bar column's in divs-->
+                    <div class="nav_column">
+                        <h3 class="nav_column_header">
+                            <a href="https://webpages.uncc.edu/wstewa25/Project_Final/index.html" class="nav_header_link">Home</a>
+                        </h3>
+                    </div>
+                    <div class="nav_column">
+                        <h3 class="nav_column_header">
+                            <a href="https://webpages.uncc.edu/wstewa25/Project_Final/about_us.html" class="nav_header_link">About Us</a>
+                        </h3>
+                    </div>
+                    <div class="nav_column">
+                        <h3 class="nav_column_header" id = "current_location">
+                            <a href="https://webpages.uncc.edu/wstewa25/Project_Final/FAQ.html" class="nav_header_link">FAQ</a>
+                        </h3>
+                    </div>
+                    <div class="nav_column">
+                        <h3 class="nav_column_header">
+                            <a href="https://webpages.uncc.edu/wstewa25/Project_Final/products.html" class="nav_header_link">Products</a> <span id = "dropArrow">          &darr;</span>
+                        </h3>
+                        <!--Subpage List for Individual Product Pages-->
+                        <ul class="nav_column_subpage_list">
+                            <li class="subpage_list_item">
+                                <a href="https://webpages.uncc.edu/wstewa25/Project_Final/apple_cider.html" class="subpage_list_link">Apple Cider</a>
+                            </li>
+                            <li class="subpage_list_item">
+                                <a href="https://webpages.uncc.edu/wstewa25/Project_Final/eucalyptus.html" class="subpage_list_link">Eucalyptus</a>
+                            </li>
+                            <li class="subpage_list_item">
+                                <a href="https://webpages.uncc.edu/wstewa25/Project_Final/forest_pine.html" class="subpage_list_link">Forest Pine</a>
+                            </li>
+                            <li class="subpage_list_item">
+                                <a href="https://webpages.uncc.edu/wstewa25/Project_Final/grapefruit.html" class="subpage_list_link">Grapefruit</a>
+                            </li>
+                            <li class="subpage_list_item">
+                                <a href="https://webpages.uncc.edu/wstewa25/Project_Final/lavender.html" class="subpage_list_link">Lavender</a>
+                            </li>
+                            <li class="subpage_list_item">
+                                <a href="https://webpages.uncc.edu/wstewa25/Project_Final/winter_mint.html" class="subpage_list_link">Winter Mint</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="nav_column">
+                        <h3 class="nav_column_header">
+                            <a href="https://webpages.uncc.edu/wstewa25/Project_Final/contact_us.html" class="nav_header_link">Contact Us</a>
+                        </h3>
+                    </div>
+                </section>
+            </nav>
+        </header>
+        <main>
+            <!--FAQ Main Section-->
+            <section id = "faq_section">
+                <div class = "center_div1">
+                    <table id = "faq_table">
+                        <tr>
+                            <!--Image to the left of FAQ text-->
+                            <td id = "faq_pic_td">
+                                <img src = "images/faq_img.jpg" alt = "Soap Base and Fragrance Oil" id = "faq_img">
+                            </td>
+                            <td>
+                                <!--Div's containing each Q&A of the FAQ section-->
+                                <div id = "accordion">
+                                    <!--Data for the accordion here is retrieved from faq.json-->
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </section>
+        </main>
+        <br>
+        <footer>
+            <br/>
+        <p>©2021 William Stewart. All rights reserved</p>
+        <p>Website Design and Developtment by: William Stewart</p>
+        <!-- Footer Validation Links -->
+        <a class = "validate_link" href="https://validator.w3.org">Validate HTML</a>
+        <a class = "validate_link" href="https://jigsaw.w3.org/css-validator/">Validate CSS</a>
+        </footer>
+    </body>
+</html>

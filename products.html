@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Charset and page title -->
+        <meta charset = "utf-8">
+        <title>Alyssa's Soap - Products</title>
+        <!-- Stylesheets, javascript files -->
+        <link rel = "stylesheet" href = "all_style.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.css" rel="stylesheet" />
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"></script>
+        <script src="product_slider.js"></script>
+        <script src="alljs.js"></script>
+    </head>
+    <body>
+        <header>
+            <!--Page Header with Title-->
+            <section id = "page_header">
+                <h1 id = "title">Products</h1>
+            </section>
+            <!--Navigation Bar-->
+            <nav>
+                <section id="nav_bar">
+                    <!--Nav Bar column's in divs-->
+                    <div class="nav_column">
+                        <h3 class="nav_column_header">
+                            <a href="https://webpages.uncc.edu/wstewa25/Project_Final/index.html" class="nav_header_link">Home</a>
+                        </h3>
+                    </div>
+                    <div class="nav_column">
+                        <h3 class="nav_column_header">
+                            <a href="https://webpages.uncc.edu/wstewa25/Project_Final/about_us.html" class="nav_header_link">About Us</a>
+                        </h3>
+                    </div>
+                    <div class="nav_column">
+                        <h3 class="nav_column_header">
+                            <a href="https://webpages.uncc.edu/wstewa25/Project_Final/FAQ.html" class="nav_header_link">FAQ</a>
+                        </h3>
+                    </div>
+                    <div class="nav_column">
+                        <h3 class="nav_column_header" id = "current_location">
+                            <a href="https://webpages.uncc.edu/wstewa25/Project_Final/products.html" class="nav_header_link">Products</a> <span id = "dropArrow">          &darr;</span>
+                        </h3>
+                        <!--Subpage List for Individual Product Pages-->
+                        <ul class="nav_column_subpage_list">
+                            <li class="subpage_list_item">
+                                <a href="https://webpages.uncc.edu/wstewa25/Project_Final/apple_cider.html" class="subpage_list_link">Apple Cider</a>
+                            </li>
+                            <li class="subpage_list_item">
+                                <a href="https://webpages.uncc.edu/wstewa25/Project_Final/eucalyptus.html" class="subpage_list_link">Eucalyptus</a>
+                            </li>
+                            <li class="subpage_list_item">
+                                <a href="https://webpages.uncc.edu/wstewa25/Project_Final/forest_pine.html" class="subpage_list_link">Forest Pine</a>
+                            </li>
+                            <li class="subpage_list_item">
+                                <a href="https://webpages.uncc.edu/wstewa25/Project_Final/grapefruit.html" class="subpage_list_link">Grapefruit</a>
+                            </li>
+                            <li class="subpage_list_item">
+                                <a href="https://webpages.uncc.edu/wstewa25/Project_Final/lavender.html" class="subpage_list_link">Lavender</a>
+                            </li>
+                            <li class="subpage_list_item">
+                                <a href="https://webpages.uncc.edu/wstewa25/Project_Final/winter_mint.html" class="subpage_list_link">Winter Mint</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="nav_column">
+                        <h3 class="nav_column_header">
+                            <a href="https://webpages.uncc.edu/wstewa25/Project_Final/contact_us.html" class="nav_header_link">Contact Us</a>
+                        </h3>
+                    </div>
+                </section>
+            </nav>
+        </header>
+        <main>
+            <!--Main section of Products, list of images that link to individual product pages-->
+            <section id = "product_link_section">
+                <div class = "center_div">
+                    <h2 class = "increaseToXLarge">Products:</h2>
+                    <p>Click on an image to view the product's information.</p>
+                    <br>
+                </div>
+                <!--List of images that link to individual product pages-->
+                <!--These are in a bxSlider carousel plugin-->
+                <div id = "slider_div" class = "center_div">
+                    <ul id = "slider">
+                        <li>
+                            <a href = "https://webpages.uncc.edu/wstewa25/Project_Final/apple_cider.html">
+                                <img src = "images/apple_cider.jpg" alt = "Apple Cider Soap Bar" class = "product_img_link" >
+                            </a>
+                            <p class = "caption_slider">Apple Cider Soap Bar</p>
+                        </li>
+                        <li>
+                            <a href = "https://webpages.uncc.edu/wstewa25/Project_Final/eucalyptus.html">
+                                <img src = "images/eucalyptus.jpg" alt = "Eucalyptus Soap Bar" class = "product_img_link" >
+                            </a>
+                            <p class = "caption_slider" >Eucalyptus Soap Bar</p>
+                        </li>
+                        <li>
+                            <a href = "https://webpages.uncc.edu/wstewa25/Project_Final/forest_pine.html">
+                                <img src = "images/forest_pine.jpg" alt = "Forest Pine Soap Bar" class = "product_img_link" >
+                            </a>
+                            <p class = "caption_slider" >Forest Pine Soap Bar</p>
+                        </li>
+                        <li>
+                            <a href = "https://webpages.uncc.edu/wstewa25/Project_Final/grapefruit.html">
+                                <img src = "images/grapefruit.jpg" alt = "Grapefruit Soap Bar" class = "product_img_link" >
+                            </a>
+                            <p class = "caption_slider" >Grapefruit Soap Bar</p>
+                        </li>
+                        <li>
+                            <a href = "https://webpages.uncc.edu/wstewa25/Project_Final/lavender.html">
+                                <img src = "images/lavender.jpg" alt = "Lavender Soap Bar" class = "product_img_link" >
+                            </a>
+                            <p class = "caption_slider" >Lavender Soap Bar</p>
+                        </li>
+                        <li>
+                            <a href = "https://webpages.uncc.edu/wstewa25/Project_Final/winter_mint.html">
+                                <img src = "images/winter_mint.jpg" alt = "Winter Mint Soap Bar" class = "product_img_link" title = "Winter Mint Soap Bar">
+                            </a>
+                            <p class = "caption_slider" >Winter Mint Soap Bar</p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <div class = "center_div">
+                <p>All of my soaps are made right here in my home in Indian Trail North Carolina.</p>
+                <p>Each soap bar comes in a textured bag perfect for use in the shower, just leave the bag on!</p>
+                <p>Each soap comes scented with premium fragrance oil, and will leave you smelling nice and fresh!</p>
+            </div>
+        </main>
+        <br>
+        <footer>
+            <br/>
+        <p>©2021 William Stewart. All rights reserved</p>
+        <p>Website Design and Developtment by: William Stewart</p>
+        <!-- Footer Validation Links -->
+        <a class = "validate_link" href="https://validator.w3.org">Validate HTML</a>
+        <a class = "validate_link" href="https://jigsaw.w3.org/css-validator/">Validate CSS</a>
+        </footer>
+    </body>
+</html>

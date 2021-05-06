@@ -1,0 +1,240 @@
+/*Set the text, background color, and margins for entire html of all pages*/
+html {
+    background-color: #b8eaff;
+    color: #b800a2;
+    margin: 25px 100px 75px;
+    font-family: georgia;
+}
+
+/*Italicize headers*/
+h1, h2, h3 {
+    font-style: italic;
+}
+
+/*Unitalicize nav bar headers*/
+.nav_column_header {
+    font-style:normal;
+}
+
+/*Change font size to be larger by default accross site*/
+p, label{
+    font-size: larger;
+}
+td ul li {
+    font-size: larger;
+}
+tr th {
+    font-size: x-large;
+}
+.increaseToXLarge{
+    font-size: x-large;
+}
+#contact_info_header{
+    font-size: x-large;
+}
+
+/*Change color of submit button on contact us page*/
+.submit_button
+{
+    color:#b800a2;
+    background-color:#C6FFB8;
+}
+
+/*
+Adds padding to the div's with the class name "product_img_div" on the products page (Products.html) (For some spacing between images)
+Adds padding to the items with the class name "ingredients_header" on the individual product pages (for spacing between header and image)
+Adds padding to the div's with the class name "q_a_snippet" on the FAQ page (FAQ.html) (for spacing between each q&a item)
+*/
+.product_img_div, .ingredients_header {
+    padding-bottom: 25px;
+    padding-top: 50px;
+}
+.q_a_snippet {
+    padding-bottom: 25px;
+    padding-right: 25px;
+}
+
+/*Align page titles to center*/
+#title {
+    text-align: center;
+    font-size: 3em;
+}
+
+/*Center Align caption links on product page*/
+.caption_slider {
+    text-align: center;
+    display: block;
+}
+
+/*Set up different size div's to use as containers in the html body*/
+.center_div{
+    margin: auto;
+    width: 800px;
+}
+.center_div1{
+    margin: auto;
+    width: 1000px;
+}
+.center_div2{
+    margin: auto;
+    width: 400px;
+}
+
+/*Size text box for sending email in contact us page*/
+#email_box {
+    height: 200px;
+    width: 400px;
+}
+
+#submit_button {
+    height: 25px;
+    width: 100px;
+}
+
+/*Center aligns the text in the footer, and sets the background color of the footer in every html page*/
+footer {
+    text-align: center;
+    background-color:#C6FFB8;
+    padding-bottom: 20px;
+    width: 1000px;
+    margin: auto;
+}
+
+/*Styling for Welcome banner on home page*/
+#welcome_banner {
+    font-size: xx-large;
+    text-align: center;
+}
+
+/*
+Sets the background color of the element in each html page with the id "current_location" 
+(to show visibly where the user is in the site)
+*/
+#current_location {
+    background-color: #FFCDB8;
+}
+
+/*Make text bold in contact page "Email:"*/
+#email_bold {
+    font-weight:bold;
+}
+
+/*Formatting for the navigation bar accross all of the html pages on the site*/
+#nav_bar {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-gap: 20px;
+    margin: auto;
+    width: 1000px;
+    background-color: #C6FFB8;
+    text-align: center;
+    font-size: larger;
+}
+/*Hide product drop down menu, can be toggled with jquery using event handler on click arrow*/
+.nav_column_subpage_list {
+    display: none;
+}
+
+/*Centers the table on the Contact Us page, and the tables on the individual product pages*/
+#contact_table, #ingredients_table {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/*add padding to top of faq table to make room for better appearance*/
+#faq_table {
+    padding-top: 50px;
+}
+
+/*Sizing and formatting for all of the images used in the website.*/
+img {
+    border: 2px solid #b800a2;
+}
+
+#product_page_img {
+    height: 500px;
+    width: 300px;
+}
+.product_img_link {
+    height: 500px;
+    width: 350px;
+    display: block;
+    margin: 0 auto;
+    text-align: center
+}
+#faq_img{
+    height: 600px;
+    width: 500px;
+    margin-right: 20px;
+}
+#faq_pic_id {
+    padding-right: 50px;
+}
+#soap_line_img {
+    height: 400px;
+    width: 600px;
+    display: block;
+    margin: 0 auto;
+}
+#contact_us_img {
+    height: 700px;
+    width: 420px;
+    display: block;
+    margin: 0 auto;
+}
+.home_pic {
+    height:250px;
+    width:150px;
+    justify-content: center;
+    margin:0 5px;
+}
+
+.process_pic {
+    height:225px;
+    width:125px;
+    justify-content: center;
+    margin:0 5px;
+}
+
+.home_top_pic {
+    height: 375px;
+    width: 300px;
+    justify-content: center;
+    margin:0 5px;
+}
+
+.home_side_pic {
+    height: 425px;
+    width: 300px;
+    justify-content: center;
+    margin:0 5px;
+}
+
+/*change the position of the X on the lightbox plugin to the top left instead of the bottom left*/
+#lightbox {
+    display: flex;
+    flex-direction: column-reverse;    
+}
+
+/*classes I add and remove from the nav bar elements when moused over with jquery*/
+.nav_bar_uppercase {
+    text-transform:uppercase;
+}
+.nav_bar_lowercase {
+    text-transform:lowercase;
+}
+.nav_bar_capitalize {
+    text-transform:capitalize;
+}
+.nav_bar_increase_size {
+    font-size:larger;
+    font-weight:bold;
+}
+.arrow_increase_size {
+    font-size:x-large;
+    font-weight:bolder;
+}
+.sitemap_increase_size {
+    font-size:x-large;
+    font-weight:bolder;
+}

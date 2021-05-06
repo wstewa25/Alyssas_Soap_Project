@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Charset and page title -->
+        <meta charset = "utf-8">
+        <title>Alyssa's Soap - Home</title>
+        <!-- Stylesheets, javascript files -->
+        <link href = "https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.9.0/css/lightbox.min.css" rel = "stylesheet">
+        <script src = "https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script src = "load_lightbox.js"></script>
+        <link rel = "stylesheet" href = "all_style.css">
+        <script src = "https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.9.0/js/lightbox.min.js"></script>
+        <script src = "alljs.js"></script>
+    </head>
+    <body>
+        <header>
+            <!--Page Header with Title-->
+            <section id = "page_header">
+                <h1 id = "title">Alyssa's Soap</h1>
+            </section>
+            <!--Navigation Bar-->
+            <nav>
+                <section id="nav_bar">
+                    <!--Nav Bar column's in divs-->
+                    <div class="nav_column">
+                        <h3 class="nav_column_header" id = "current_location">
+                            <a href="https://webpages.uncc.edu/wstewa25/Project_Final/index.html" class="nav_header_link">Home</a>
+                        </h3>
+                    </div>
+                    <div class="nav_column">
+                        <h3 class="nav_column_header">
+                            <a href="https://webpages.uncc.edu/wstewa25/Project_Final/about_us.html" class="nav_header_link">About Us</a>
+                        </h3>
+                    </div>
+                    <div class="nav_column">
+                        <h3 class="nav_column_header">
+                            <a href="https://webpages.uncc.edu/wstewa25/Project_Final/FAQ.html" class="nav_header_link">FAQ</a>
+                        </h3>
+                    </div>
+                    <div class="nav_column">
+                        <h3 class="nav_column_header">
+                            <a href="https://webpages.uncc.edu/wstewa25/Project_Final/products.html" class="nav_header_link">Products</a> <span id = "dropArrow">          &darr;</span>
+                        </h3>
+                        <!--Subpage List for Individual Product Pages-->
+                        <ul class="nav_column_subpage_list">
+                            <li class="subpage_list_item">
+                                <a href="https://webpages.uncc.edu/wstewa25/Project_Final/apple_cider.html" class="subpage_list_link">Apple Cider</a>
+                            </li>
+                            <li class="subpage_list_item">
+                                <a href="https://webpages.uncc.edu/wstewa25/Project_Final/eucalyptus.html" class="subpage_list_link">Eucalyptus</a>
+                            </li>
+                            <li class="subpage_list_item">
+                                <a href="https://webpages.uncc.edu/wstewa25/Project_Final/forest_pine.html" class="subpage_list_link">Forest Pine</a>
+                            </li>
+                            <li class="subpage_list_item">
+                                <a href="https://webpages.uncc.edu/wstewa25/Project_Final/grapefruit.html" class="subpage_list_link">Grapefruit</a>
+                            </li>
+                            <li class="subpage_list_item">
+                                <a href="https://webpages.uncc.edu/wstewa25/Project_Final/lavender.html" class="subpage_list_link">Lavender</a>
+                            </li>
+                            <li class="subpage_list_item">
+                                <a href="https://webpages.uncc.edu/wstewa25/Project_Final/winter_mint.html" class="subpage_list_link">Winter Mint</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="nav_column">
+                        <h3 class="nav_column_header">
+                            <a href="https://webpages.uncc.edu/wstewa25/Project_Final/contact_us.html" class="nav_header_link">Contact Us</a>
+                        </h3>
+                    </div>
+                </section>
+            </nav>
+        </header>
+        <main>
+            <!--Main Section body with image and some text-->
+            <section id = "welcome_body">
+                <div class = "center_div1">
+                    <h1 id = "welcome_banner">Welcome to Alyssa's Soap!</h1>
+                    <div>
+                        <img src = "images/left_side_soap_line.jpg" alt = "Line of soaps" class = "home_side_pic">
+                        <img src = "images/alyssa_holding_soap.jpg" alt = "Alyssa holding up a bar of soap" class = "home_top_pic">
+                        <img src = "images/right_side_soap_line.jpg" alt = "Line of Soaps" class = "home_side_pic">
+                    </div>
+                    <p>
+                        Welcome to Alyssa's Soap, your local source for home made scented soaps in Indian Trail, North Carolina.<br><br>
+                        Visit the <em>"About Us"</em> page for more information about me and my soap business.<br><br>
+                        If you have any questions, head on over to my <em>"FAQ"</em> page where I have answered some of the questions I am 
+                        asked most often.<br><br>
+                        If you would like to take a look at some of the different products I sell, head on over to the <em>"Products"</em> page 
+                        where there is information on all of the products I currently have available.<br><br>
+                        If you have anyquestions for me that aren't on the FAQ page, or if you would like to purchase one of my products,
+                        contact me at the email address on the <em>"Contact Us"</em> Page.<br>
+
+                    </p>
+                </div>
+
+                <div id = "homepage_pics" class = "center_div1">
+                        <!-- Data retrieved from JSON file Here for lightbox -->
+                </div>
+            </section>
+        </main>
+        <br>
+        <footer>
+            <br/>
+        <p>©2021 William Stewart. All rights reserved</p>
+        <p>Website Design and Developtment by: William Stewart</p>
+        <!-- Footer Validation Links -->
+        <a class = "validate_link" href="https://validator.w3.org">Validate HTML</a>
+        <a class = "validate_link" href="https://jigsaw.w3.org/css-validator/">Validate CSS</a>
+        </footer>
+    </body>
+</html>
